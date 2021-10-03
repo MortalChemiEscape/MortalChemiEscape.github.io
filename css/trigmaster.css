@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+   background-color: #082032;
+}
+
+button {
+  background-color: #082032;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 50%; /** ou 15vw**/
+  height: 70%%; /** 10px = 1vw (ou seja, 150px seriam 15vw**/
+}
+
+
+div.tudo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+}
+
+div.setTri {
+   display: flex;
+   flex-direction: row;
+}
+
+.words {
+   color: white;
+}

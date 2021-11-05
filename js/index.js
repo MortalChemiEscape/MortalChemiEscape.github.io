@@ -60,7 +60,7 @@ function check_answervi(){
 
 //CARTA 25
 function check_answervii(){
-   if (document.forms_de_teste7.input1.value.toLowerCase() == "860" || document.forms_de_teste7.input1.value.toLowerCase() == 860) {
+   if (document.forms_de_teste7.input1.value.toLowerCase() == "890" || document.forms_de_teste7.input1.value.toLowerCase() == 890) {
       window.alert("CORRECT!");
       window.open("25Vwin.html", '_blank').focus();
          }
@@ -104,7 +104,7 @@ function check_answerx(){
 
 //CARTA 34
 function check_answerxi(){
-   if (document.forms_de_teste11.input1.value.toLowerCase() == "225" || document.forms_de_teste11.input1.value.toLowerCase() == "225g" ) {
+   if (document.forms_de_teste11.input1.value.toLowerCase() == "255" || document.forms_de_teste11.input1.value.toLowerCase() == "255g" ) {
       window.alert("CORRECT!");
       window.open("34Vwin.html", '_blank').focus();
          }

@@ -3,7 +3,15 @@ function check_answeri(){
     if (document.forms_de_teste1.input1.value.toLowerCase() == "cobre" && document.forms_de_teste1.input2.value.toLowerCase() == "níquel") {
       window.alert("CORRECT!");
       window.open("4Vwin.html", '_blank').focus();
-    }
+   }
+    else if (document.forms_de_teste1.input1.value.toLowerCase() == "cu" && document.forms_de_teste1.input2.value.toLowerCase() == "ni") {
+      window.alert("CORRECT!");
+      window.open("4Vwin.html", '_blank').focus();
+   }
+    else if (document.forms_de_teste1.input1.value.toLowerCase() == "cobre " && document.forms_de_teste1.input2.value.toLowerCase() == "níquel ") {
+      window.alert("CORRECT!");
+      window.open("4Vwin.html", '_blank').focus();
+   }
     else {
       window.alert("INCORRECT!");
     }}
